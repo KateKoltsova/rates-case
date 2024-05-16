@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+    nginx:
+        image: "nginx:stable-alpine"
+        ports:
+            - "8080:80"
+        volumes:
+            - ./nginx.conf:/etc/nginx/conf.d/default.conf:rw
+            - ./:/var/www/rates-case
+        depends_on:
+            - php
+
+    mysql:
+        image: mysql:8.0
+        ports:
+            - "3316:3306"
+        env_file:
+            - mysql.env
+
+    php:
+        image: php:8.1-fpm-alpine
+        volumes:
+            - ./:/var/www/rates-case
+        command: /bin/sh -c "curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \
+            && cd ../rates-case/src \
+            && composer install \
+            && docker-php-ext-install mysqli pdo pdo_mysql \
+            && php-fpm"
