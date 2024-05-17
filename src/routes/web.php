@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('welcome');
+
+Route::post('/subscribe', [\App\Http\Controllers\HomeController::class, 'addEmail'])->name('addEmail');

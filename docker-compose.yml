@@ -26,4 +26,5 @@ services:
             && cd ../rates-case/src \
             && composer install \
             && docker-php-ext-install mysqli pdo pdo_mysql \
+            && php artisan migrate --force \
             && php-fpm"
