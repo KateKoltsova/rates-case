@@ -1,0 +1,610 @@
+{
+	"info": {
+		"_postman_id": "05daddbb-0786-4811-ad8e-c36ecb472a83",
+		"name": "rates-case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30439365"
+	},
+	"item": [
+		{
+			"name": "home",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.24.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.27"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 17 May 2024 15:51:40 GMT"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6Ik9sRk5Sb3RMUVoydUdjOEVPaDlSS3c9PSIsInZhbHVlIjoibWdjTE5FeERadXAxTzIzQ1EwSS9VVFlONzFKTzkyQmtwYWRLL3FwY3NLay9HK2Z3Sk5SdGs5MkpMVzBhWEUzK3Judzh3RlBpbWJIK2U0S3hQWWhDYjJ4djRpeDlxSk15RkxWWm1hMENYU0NEamJveDV1eXh4WmlHYS93NStyRHEiLCJtYWMiOiJkNjEyOWZiNjk2Mjc2MDExMWM0OGQyZTZhN2Y0MmQ2Zjk2ZmNiYjIxZTYzOWZhZmFiY2RhODY4YTYzNzQ3YWE4IiwidGFnIjoiIn0%3D; expires=Fri, 17 May 2024 17:51:40 GMT; Max-Age=7200; path=/; samesite=lax"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "rates_session=eyJpdiI6IjFEWmVKbWJCM0FwQ0w5UlFsczc1cmc9PSIsInZhbHVlIjoiMEVaZ0s3Y3NBZFV0SnpDNm1OMzZWK2dYSXgwRnE5bkFsNU5qdDE1WmU5RWRDZWR5d1Bld1dkMGdKUWFjRkJBWGpaOEJtQitTcFBhcnN4REpoOWlVMjJBSVhkS0xwQzdiME51aEJSOHpSTFJSejhvL1V1dXpmTDRXNmRlWDJZSUMiLCJtYWMiOiIzNDY2ZDgyYTE1MmMxMjdlNDI2ODAyNzQ0MTNlZDk1ZTE0M2Y0YmJiODFmNzEzZmY0YTk0NmVmYTZhOTJiY2FlIiwidGFnIjoiIn0%3D; expires=Fri, 17 May 2024 17:51:40 GMT; Max-Age=7200; path=/; httponly; samesite=lax"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <title>Laravel</title>\n        <!-- Fonts -->\n        <link rel=\"preconnect\" href=\"https://fonts.bunny.net\">\n        <link href=\"https://fonts.bunny.net/css?family=figtree:400,600&display=swap\" rel=\"stylesheet\"/>\n        <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\"\n          integrity=\"sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH\" crossorigin=\"anonymous\">\n        <script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\"\n            integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\"\n            crossorigin=\"anonymous\"></script>\n        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js\"\n            integrity=\"sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy\"\n            crossorigin=\"anonymous\"></script>\n        <!-- Styles -->\n        <style>\n        /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */\n        *, ::after, ::before {\n            box-sizing: border-box;\n            border-width: 0;\n            border-style: solid;\n            border-color: #e5e7eb\n        }\n\n        ::after, ::before {\n            --tw-content: ''\n        }\n\n        html {\n            line-height: 1.5;\n            -webkit-text-size-adjust: 100%;\n            -moz-tab-size: 4;\n            tab-size: 4;\n            font-family: Figtree, sans-serif;\n            font-feature-settings: normal\n        }\n\n        body {\n            margin: 0;\n            line-height: inherit\n        }\n\n        hr {\n            height: 0;\n            color: inherit;\n            border-top-width: 1px\n        }\n\n        abbr:where([title]) {\n            -webkit-text-decoration: underline dotted;\n            text-decoration: underline dotted\n        }\n\n        h1, h2, h3, h4, h5, h6 {\n            font-size: inherit;\n            font-weight: inherit\n        }\n\n        a {\n            color: inherit;\n            text-decoration: inherit\n        }\n\n        b, strong {\n            font-weight: bolder\n        }\n\n        code, kbd, pre, samp {\n            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace;\n            font-size: 1em\n        }\n\n        small {\n            font-size: 80%\n        }\n\n        sub, sup {\n            font-size: 75%;\n            line-height: 0;\n            position: relative;\n            vertical-align: baseline\n        }\n\n        sub {\n            bottom: -.25em\n        }\n\n        sup {\n            top: -.5em\n        }\n\n        table {\n            text-indent: 0;\n            border-color: inherit;\n            border-collapse: collapse\n        }\n\n        button, input, optgroup, select, textarea {\n            font-family: inherit;\n            font-size: 100%;\n            font-weight: inherit;\n            line-height: inherit;\n            color: inherit;\n            margin: 0;\n            padding: 0\n        }\n\n        button, select {\n            text-transform: none\n        }\n\n        [type=button], [type=reset], [type=submit], button {\n            -webkit-appearance: button;\n            background-color: transparent;\n            background-image: none\n        }\n\n        :-moz-focusring {\n            outline: auto\n        }\n\n        :-moz-ui-invalid {\n            box-shadow: none\n        }\n\n        progress {\n            vertical-align: baseline\n        }\n\n        ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {\n            height: auto\n        }\n\n        [type=search] {\n            -webkit-appearance: textfield;\n            outline-offset: -2px\n        }\n\n        ::-webkit-search-decoration {\n            -webkit-appearance: none\n        }\n\n        ::-webkit-file-upload-button {\n            -webkit-appearance: button;\n            font: inherit\n        }\n\n        summary {\n            display: list-item\n        }\n\n        blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {\n            margin: 0\n        }\n\n        fieldset {\n            margin: 0;\n            padding: 0\n        }\n\n        legend {\n            padding: 0\n        }\n\n        menu, ol, ul {\n            list-style: none;\n            margin: 0;\n            padding: 0\n        }\n\n        textarea {\n            resize: vertical\n        }\n\n        input::placeholder, textarea::placeholder {\n            opacity: 1;\n            color: #9ca3af\n        }\n\n        [role=button], button {\n            cursor: pointer\n        }\n\n        :disabled {\n            cursor: default\n        }\n\n        audio, canvas, embed, iframe, img, object, svg, video {\n            display: block;\n            vertical-align: middle\n        }\n\n        img, video {\n            max-width: 100%;\n            height: auto\n        }\n\n        [hidden] {\n            display: none\n        }\n\n        *, ::before, ::after {\n            --tw-border-spacing-x: 0;\n            --tw-border-spacing-y: 0;\n            --tw-translate-x: 0;\n            --tw-translate-y: 0;\n            --tw-rotate: 0;\n            --tw-skew-x: 0;\n            --tw-skew-y: 0;\n            --tw-scale-x: 1;\n            --tw-scale-y: 1;\n            --tw-pan-x: ;\n            --tw-pan-y: ;\n            --tw-pinch-zoom: ;\n            --tw-scroll-snap-strictness: proximity;\n            --tw-ordinal: ;\n            --tw-slashed-zero: ;\n            --tw-numeric-figure: ;\n            --tw-numeric-spacing: ;\n            --tw-numeric-fraction: ;\n            --tw-ring-inset: ;\n            --tw-ring-offset-width: 0px;\n            --tw-ring-offset-color: #fff;\n            --tw-ring-color: rgb(59 130 246 / 0.5);\n            --tw-ring-offset-shadow: 0 0 #0000;\n            --tw-ring-shadow: 0 0 #0000;\n            --tw-shadow: 0 0 #0000;\n            --tw-shadow-colored: 0 0 #0000;\n            --tw-blur: ;\n            --tw-brightness: ;\n            --tw-contrast: ;\n            --tw-grayscale: ;\n            --tw-hue-rotate: ;\n            --tw-invert: ;\n            --tw-saturate: ;\n            --tw-sepia: ;\n            --tw-drop-shadow: ;\n            --tw-backdrop-blur: ;\n            --tw-backdrop-brightness: ;\n            --tw-backdrop-contrast: ;\n            --tw-backdrop-grayscale: ;\n            --tw-backdrop-hue-rotate: ;\n            --tw-backdrop-invert: ;\n            --tw-backdrop-opacity: ;\n            --tw-backdrop-saturate: ;\n            --tw-backdrop-sepia:\n        }\n\n        ::-webkit-backdrop {\n            --tw-border-spacing-x: 0;\n            --tw-border-spacing-y: 0;\n            --tw-translate-x: 0;\n            --tw-translate-y: 0;\n            --tw-rotate: 0;\n            --tw-skew-x: 0;\n            --tw-skew-y: 0;\n            --tw-scale-x: 1;\n            --tw-scale-y: 1;\n            --tw-pan-x: ;\n            --tw-pan-y: ;\n            --tw-pinch-zoom: ;\n            --tw-scroll-snap-strictness: proximity;\n            --tw-ordinal: ;\n            --tw-slashed-zero: ;\n            --tw-numeric-figure: ;\n            --tw-numeric-spacing: ;\n            --tw-numeric-fraction: ;\n            --tw-ring-inset: ;\n            --tw-ring-offset-width: 0px;\n            --tw-ring-offset-color: #fff;\n            --tw-ring-color: rgb(59 130 246 / 0.5);\n            --tw-ring-offset-shadow: 0 0 #0000;\n            --tw-ring-shadow: 0 0 #0000;\n            --tw-shadow: 0 0 #0000;\n            --tw-shadow-colored: 0 0 #0000;\n            --tw-blur: ;\n            --tw-brightness: ;\n            --tw-contrast: ;\n            --tw-grayscale: ;\n            --tw-hue-rotate: ;\n            --tw-invert: ;\n            --tw-saturate: ;\n            --tw-sepia: ;\n            --tw-drop-shadow: ;\n            --tw-backdrop-blur: ;\n            --tw-backdrop-brightness: ;\n            --tw-backdrop-contrast: ;\n            --tw-backdrop-grayscale: ;\n            --tw-backdrop-hue-rotate: ;\n            --tw-backdrop-invert: ;\n            --tw-backdrop-opacity: ;\n            --tw-backdrop-saturate: ;\n            --tw-backdrop-sepia:\n        }\n\n        ::backdrop {\n            --tw-border-spacing-x: 0;\n            --tw-border-spacing-y: 0;\n            --tw-translate-x: 0;\n            --tw-translate-y: 0;\n            --tw-rotate: 0;\n            --tw-skew-x: 0;\n            --tw-skew-y: 0;\n            --tw-scale-x: 1;\n            --tw-scale-y: 1;\n            --tw-pan-x: ;\n            --tw-pan-y: ;\n            --tw-pinch-zoom: ;\n            --tw-scroll-snap-strictness: proximity;\n            --tw-ordinal: ;\n            --tw-slashed-zero: ;\n            --tw-numeric-figure: ;\n            --tw-numeric-spacing: ;\n            --tw-numeric-fraction: ;\n            --tw-ring-inset: ;\n            --tw-ring-offset-width: 0px;\n            --tw-ring-offset-color: #fff;\n            --tw-ring-color: rgb(59 130 246 / 0.5);\n            --tw-ring-offset-shadow: 0 0 #0000;\n            --tw-ring-shadow: 0 0 #0000;\n            --tw-shadow: 0 0 #0000;\n            --tw-shadow-colored: 0 0 #0000;\n            --tw-blur: ;\n            --tw-brightness: ;\n            --tw-contrast: ;\n            --tw-grayscale: ;\n            --tw-hue-rotate: ;\n            --tw-invert: ;\n            --tw-saturate: ;\n            --tw-sepia: ;\n            --tw-drop-shadow: ;\n            --tw-backdrop-blur: ;\n            --tw-backdrop-brightness: ;\n            --tw-backdrop-contrast: ;\n            --tw-backdrop-grayscale: ;\n            --tw-backdrop-hue-rotate: ;\n            --tw-backdrop-invert: ;\n            --tw-backdrop-opacity: ;\n            --tw-backdrop-saturate: ;\n            --tw-backdrop-sepia:\n        }\n\n        .relative {\n            position: relative\n        }\n\n        .mx-auto {\n            margin-left: auto;\n            margin-right: auto\n        }\n\n        .mx-6 {\n            margin-left: 1.5rem;\n            margin-right: 1.5rem\n        }\n\n        .ml-4 {\n            margin-left: 1rem\n        }\n\n        .mt-16 {\n            margin-top: 4rem\n        }\n\n        .mt-6 {\n            margin-top: 1.5rem\n        }\n\n        .mt-4 {\n            margin-top: 1rem\n        }\n\n        .-mt-px {\n            margin-top: -1px\n        }\n\n        .mr-1 {\n            margin-right: 0.25rem\n        }\n\n        .flex {\n            display: flex\n        }\n\n        .inline-flex {\n            display: inline-flex\n        }\n\n        .grid {\n            display: grid\n        }\n\n        .h-16 {\n            height: 4rem\n        }\n\n        .h-7 {\n            height: 1.75rem\n        }\n\n        .h-6 {\n            height: 1.5rem\n        }\n\n        .h-5 {\n            height: 1.25rem\n        }\n\n        .min-h-screen {\n            min-height: 100vh\n        }\n\n        .w-auto {\n            width: auto\n        }\n\n        .w-16 {\n            width: 4rem\n        }\n\n        .w-7 {\n            width: 1.75rem\n        }\n\n        .w-6 {\n            width: 1.5rem\n        }\n\n        .w-5 {\n            width: 1.25rem\n        }\n\n        .max-w-7xl {\n            max-width: 80rem\n        }\n\n        .shrink-0 {\n            flex-shrink: 0\n        }\n\n        .scale-100 {\n            --tw-scale-x: 1;\n            --tw-scale-y: 1;\n            transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))\n        }\n\n        .grid-cols-1 {\n            grid-template-columns:repeat(1, minmax(0, 1fr))\n        }\n\n        .items-center {\n            align-items: center\n        }\n\n        .justify-center {\n            justify-content: center\n        }\n\n        .gap-6 {\n            gap: 1.5rem\n        }\n\n        .gap-4 {\n            gap: 1rem\n        }\n\n        .self-center {\n            align-self: center\n        }\n\n        .rounded-lg {\n            border-radius: 0.5rem\n        }\n\n        .rounded-full {\n            border-radius: 9999px\n        }\n\n        .bg-gray-100 {\n            --tw-bg-opacity: 1;\n            background-color: rgb(243 244 246 / var(--tw-bg-opacity))\n        }\n\n        .bg-white {\n            --tw-bg-opacity: 1;\n            background-color: rgb(255 255 255 / var(--tw-bg-opacity))\n        }\n\n        .bg-red-50 {\n            --tw-bg-opacity: 1;\n            background-color: rgb(254 242 242 / var(--tw-bg-opacity))\n        }\n\n        .bg-dots-darker {\n            background-image: url(\"data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(0,0,0,0.07)'/%3E%3C/svg%3E\")\n        }\n\n        .from-gray-700\\/50 {\n            --tw-gradient-from: rgb(55 65 81 / 0.5);\n            --tw-gradient-to: rgb(55 65 81 / 0);\n            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)\n        }\n\n        .via-transparent {\n            --tw-gradient-to: rgb(0 0 0 / 0);\n            --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to)\n        }\n\n        .bg-center {\n            background-position: center\n        }\n\n        .stroke-red-500 {\n            stroke: #ef4444\n        }\n\n        .stroke-gray-400 {\n            stroke: #9ca3af\n        }\n\n        .p-6 {\n            padding: 1.5rem\n        }\n\n        .px-6 {\n            padding-left: 1.5rem;\n            padding-right: 1.5rem\n        }\n\n        .text-center {\n            text-align: center\n        }\n\n        .text-right {\n            text-align: right\n        }\n\n        .text-xl {\n            font-size: 1.25rem;\n            line-height: 1.75rem\n        }\n\n        .text-sm {\n            font-size: 0.875rem;\n            line-height: 1.25rem\n        }\n\n        .font-semibold {\n            font-weight: 600\n        }\n\n        .leading-relaxed {\n            line-height: 1.625\n        }\n\n        .text-gray-600 {\n            --tw-text-opacity: 1;\n            color: rgb(75 85 99 / var(--tw-text-opacity))\n        }\n\n        .text-gray-900 {\n            --tw-text-opacity: 1;\n            color: rgb(17 24 39 / var(--tw-text-opacity))\n        }\n\n        .text-gray-500 {\n            --tw-text-opacity: 1;\n            color: rgb(107 114 128 / var(--tw-text-opacity))\n        }\n\n        .underline {\n            -webkit-text-decoration-line: underline;\n            text-decoration-line: underline\n        }\n\n        .antialiased {\n            -webkit-font-smoothing: antialiased;\n            -moz-osx-font-smoothing: grayscale\n        }\n\n        .shadow-2xl {\n            --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);\n            --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);\n            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)\n        }\n\n        .shadow-gray-500\\/20 {\n            --tw-shadow-color: rgb(107 114 128 / 0.2);\n            --tw-shadow: var(--tw-shadow-colored)\n        }\n\n        .transition-all {\n            transition-property: all;\n            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);\n            transition-duration: 150ms\n        }\n\n        .selection\\:bg-red-500 *::selection {\n            --tw-bg-opacity: 1;\n            background-color: rgb(239 68 68 / var(--tw-bg-opacity))\n        }\n\n        .selection\\:text-white *::selection {\n            --tw-text-opacity: 1;\n            color: rgb(255 255 255 / var(--tw-text-opacity))\n        }\n\n        .selection\\:bg-red-500::selection {\n            --tw-bg-opacity: 1;\n            background-color: rgb(239 68 68 / var(--tw-bg-opacity))\n        }\n\n        .selection\\:text-white::selection {\n            --tw-text-opacity: 1;\n            color: rgb(255 255 255 / var(--tw-text-opacity))\n        }\n\n        .hover\\:text-gray-900:hover {\n            --tw-text-opacity: 1;\n            color: rgb(17 24 39 / var(--tw-text-opacity))\n        }\n\n        .hover\\:text-gray-700:hover {\n            --tw-text-opacity: 1;\n            color: rgb(55 65 81 / var(--tw-text-opacity))\n        }\n\n        .focus\\:rounded-sm:focus {\n            border-radius: 0.125rem\n        }\n\n        .focus\\:outline:focus {\n            outline-style: solid\n        }\n\n        .focus\\:outline-2:focus {\n            outline-width: 2px\n        }\n\n        .focus\\:outline-red-500:focus {\n            outline-color: #ef4444\n        }\n\n        .group:hover .group-hover\\:stroke-gray-600 {\n            stroke: #4b5563\n        }\n\n        .z-10 {\n            z-index: 10\n        }\n\n        @media (prefers-reduced-motion: no-preference) {\n            .motion-safe\\:hover\\:scale-\\[1\\.01\\]:hover {\n                --tw-scale-x: 1.01;\n                --tw-scale-y: 1.01;\n                transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))\n            }\n        }\n\n        @media (prefers-color-scheme: dark) {\n            .dark\\:bg-gray-900 {\n                --tw-bg-opacity: 1;\n                background-color: rgb(17 24 39 / var(--tw-bg-opacity))\n            }\n\n            .dark\\:bg-gray-800\\/50 {\n                background-color: rgb(31 41 55 / 0.5)\n            }\n\n            .dark\\:bg-red-800\\/20 {\n                background-color: rgb(153 27 27 / 0.2)\n            }\n\n            .dark\\:bg-dots-lighter {\n                background-image: url(\"data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(255,255,255,0.07)'/%3E%3C/svg%3E\")\n            }\n\n            .dark\\:bg-gradient-to-bl {\n                background-image: linear-gradient(to bottom left, var(--tw-gradient-stops))\n            }\n\n            .dark\\:stroke-gray-600 {\n                stroke: #4b5563\n            }\n\n            .dark\\:text-gray-400 {\n                --tw-text-opacity: 1;\n                color: rgb(156 163 175 / var(--tw-text-opacity))\n            }\n\n            .dark\\:text-white {\n                --tw-text-opacity: 1;\n                color: rgb(255 255 255 / var(--tw-text-opacity))\n            }\n\n            .dark\\:shadow-none {\n                --tw-shadow: 0 0 #0000;\n                --tw-shadow-colored: 0 0 #0000;\n                box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)\n            }\n\n            .dark\\:ring-1 {\n                --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);\n                --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);\n                box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)\n            }\n\n            .dark\\:ring-inset {\n                --tw-ring-inset: inset\n            }\n\n            .dark\\:ring-white\\/5 {\n                --tw-ring-color: rgb(255 255 255 / 0.05)\n            }\n\n            .dark\\:hover\\:text-white:hover {\n                --tw-text-opacity: 1;\n                color: rgb(255 255 255 / var(--tw-text-opacity))\n            }\n\n            .group:hover .dark\\:group-hover\\:stroke-gray-400 {\n                stroke: #9ca3af\n            }\n        }\n\n        @media (min-width: 640px) {\n            .sm\\:fixed {\n                position: fixed\n            }\n\n            .sm\\:top-0 {\n                top: 0px\n            }\n\n            .sm\\:right-0 {\n                right: 0px\n            }\n\n            .sm\\:ml-0 {\n                margin-left: 0px\n            }\n\n            .sm\\:flex {\n                display: flex\n            }\n\n            .sm\\:items-center {\n                align-items: center\n            }\n\n            .sm\\:justify-center {\n                justify-content: center\n            }\n\n            .sm\\:justify-between {\n                justify-content: space-between\n            }\n\n            .sm\\:text-left {\n                text-align: left\n            }\n\n            .sm\\:text-right {\n                text-align: right\n            }\n        }\n\n        @media (min-width: 768px) {\n            .md\\:grid-cols-2 {\n                grid-template-columns:repeat(2, minmax(0, 1fr))\n            }\n        }\n\n        @media (min-width: 1024px) {\n            .lg\\:gap-8 {\n                gap: 2rem\n            }\n\n            .lg\\:p-8 {\n                padding: 2rem\n            }\n        }\n    </style>\n    </head>\n    <body class=\"antialiased\">\n        <div\n    class=\"relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white\">\n            <div class=\"max-w-7xl mx-auto p-6 lg:p-8\">\n                <div class=\"flex justify-center\">\n                    <svg viewBox=\"0 0 62 65\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\n                 class=\"h-16 w-auto bg-gray-100 dark:bg-gray-900\">\n                        <path\n                    d=\"M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z\"\n                    fill=\"#FF2D20\"/>\n                    </svg>\n                </div>\n                <div class=\"mt-16\">\n                    <form class=\"form d-grid gap-2 col-12 mx-auto justify-content-center\" action=\"http://localhost:8080/subscribe\"\n                  method=\"post\"\n                  enctype=\"multipart/form-data\" novalidate>\n                        <input type=\"hidden\" name=\"_token\" value=\"nT30BWEXXUczNFBBhvmb4cj97MOXwDDwjPjnvSAh\" autocomplete=\"off\">\n                        <div class=\"\">\n                            <label for=\"email\" class=\"form-label\"> Email </label>\n                            <input class=\"form-control\n                                                        \" type=\"email\" name=\"email\"\n                           id=\"email\" placeholder=\"Email\"\n                           value=\"\">\n                                    \n                        </div>\n                        <button class=\"btn btn-outline-success\" type=\"submit\">Submit</button>\n                    </form>\n                </div>\n                <div class=\"flex justify-center mt-16 px-0 sm:items-center\">\n                    <div class=\"text-center text-sm sm:text-left\">\n                &nbsp;\n            </div>\n                    <div class=\"text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0\">\n                Laravel v10.48.10 (PHP v8.1.27)\n            </div>\n                </div>\n            </div>\n        </div>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "get rate",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/rate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rate"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/rate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rate"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.24.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.27"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 May 2024 18:31:39 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "39.3"
+				}
+			]
+		},
+		{
+			"name": "subscribe email",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/subscribe",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"subscribe"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "error",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "kate@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/subscribe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"subscribe"
+							]
+						}
+					},
+					"status": "Conflict",
+					"code": 409,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.24.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.27"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 May 2024 19:56:54 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "58"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Error of subscribe\",\n    \"errors\": \"This email already subscribe to rate changes\"\n}"
+				},
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "kate.petronyuk@gmail.com",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/subscribe",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"subscribe"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.24.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.27"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 May 2024 20:05:04 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "55"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"E-mail successfully added\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get latest rate",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/rateLatest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rateLatest"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/rate",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"rate"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "nginx/1.24.0"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.1.27"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 16 May 2024 18:31:39 GMT"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "60"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "59"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "39.3"
+				}
+			]
+		}
+	]
+}
