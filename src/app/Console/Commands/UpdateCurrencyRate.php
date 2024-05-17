@@ -36,7 +36,10 @@ class UpdateCurrencyRate extends Command
     {
         try {
             $usdRate = $this->ratesService->getRates();
-            $this->ratesService->saveUsdRate($usdRate);
+            $createdRate = $this->ratesService->saveUsdRate($usdRate);
+            if ($createdRate) {
+                event(new CurrencyRateUpdatedEvent($usdRate));
+            }
 
             $this->info('Currency rate updated successfully');
         } catch (Exception $e) {

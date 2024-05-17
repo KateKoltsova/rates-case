@@ -29,7 +29,7 @@ abstract class RatesAbstract
         } while ($i < 3);
 
         if (empty($this->response)) {
-            throw new Exception('Error request to PrivatBank API', $this->response->status());
+            throw new Exception('Error request to bank API', $this->response->status());
         }
     }
 
@@ -49,9 +49,7 @@ abstract class RatesAbstract
             'rate_to_uah' => $usdRate,
         ]);
 
-        if ($rate) {
-            event(new CurrencyRateUpdatedEvent($usdRate));
-        }
+        return $rate;
     }
 
     public function getLastRate()
