@@ -17,3 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/rate', [\App\Http\Controllers\API\v1\HomeController::class, 'getRate']);
+Route::get('/rateLatest', [\App\Http\Controllers\API\v1\HomeController::class, 'getLastRate']);
+Route::post('/subscribe', [\App\Http\Controllers\API\v1\HomeController::class, 'subscribeEmail']);
